@@ -6,9 +6,9 @@
 
 ### Links and Resources
 
-- [ci/cd](https://github.com/jennerdulce/basic-auth/actions) (GitHub Actions)
-- [Pull Request](https://github.com/jennerdulce/basic-auth/pull/1)
-- [HEROKU App](https://jennerdulce-basic-auth.herokuapp.com/)
+- [ci/cd](https://github.com/jennerdulce/bearer-auth/actions) (GitHub Actions)
+- [Pull Request](https://github.com/jennerdulce/bearer-auth/pull/2)
+- [HEROKU App](https://jennerdulce-bearer-auth.herokuapp.com/)
 
 ### Setup
 
@@ -28,11 +28,7 @@
 
 ##### Assert the following
 
-- POST to /signup to create a new user
-- POST to /signin to login as a user (use basic auth)
-- Need tests for auth middleware and the routes
-  - Does the middleware function (send it a basic header)
-  - Do the routes assert the requirements (signup/signin)
+- Tests were a given and our objective was to ensure that they work. (they work)
 
 #### UML
 

@@ -46,4 +46,5 @@ users.statics.authenticateToken = async function (token) {
   throw new Error('INVALID TOKEN')
 }
 
-module.exports = mongoose.model('users', users)
+module.exports = mongoose.model('yousers', users)
+
